@@ -1878,3 +1878,45 @@ body.active { overflow: hidden; }
   font-size: 28px;
   margin-left: 8px;
 }
+
+.modal{
+  background-color: #000000;
+  opacity: 0;
+  z-index: -111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition:  all 0.3s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal.open{
+  opacity: 1;
+  z-index: 999;
+}
+.model-inner{
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  width: 380px;
+  margin: 10px;
+}
+
+.closeModals{
+  color: #ffffff;
+  background-color: #B44949;
+  padding: 5px 70px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  
+}
+
+
+
+
