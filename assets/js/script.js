@@ -245,3 +245,57 @@ const button = document.querySelector(".buttoncv");
         button.querySelector("span").innerText = "Completed";
       },1000);
     });
+
+    const openBtn = document.getElementById("openModal");
+    const closeBtn = document.getElementById("closeModal");
+    const modal = document.getElementById("modal");
+
+    openBtn.addEventListener("click",() => {
+      modal.classList.add("open");
+
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.classList.remove("open");
+    });
+
+
+    const openBtn1 = document.getElementById("openModal1");
+    const closeBtn1 = document.getElementById("closeModal1");
+    const modal1 = document.getElementById("modal1");
+
+    openBtn1.addEventListener("click",() => {
+      modal1.classList.add("open");
+
+    });
+
+    closeBtn1.addEventListener("click", () => {
+      modal1.classList.remove("open");
+    });
+
+
+    const openBtn2 = document.getElementById("openModal2");
+    const closeBtn2 = document.getElementById("closeModal2");
+    const modal2 = document.getElementById("modal2");
+
+    openBtn2.addEventListener("click",() => {
+      modal2.classList.add("open");
+
+    });
+
+    closeBtn2.addEventListener("click", () => {
+      modal2.classList.remove("open");
+    });
+
+    const openBtn3 = document.getElementById("openModal3");
+    const closeBtn3 = document.getElementById("closeModal3");
+    const modal3 = document.getElementById("modal3");
+
+    openBtn3.addEventListener("click",() => {
+      modal3.classList.add("open");
+
+    });
+
+    closeBtn3.addEventListener("click", () => {
+      modal3.classList.remove("open");
+    });
